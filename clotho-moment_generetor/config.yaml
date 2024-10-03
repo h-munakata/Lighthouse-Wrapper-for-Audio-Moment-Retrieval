@@ -1,0 +1,17 @@
+root_wwt: /YOUR/WALKING_TOUR/DIRECTORY/WalkingTourVideos
+root_clotho: /YOUR/CLOTHO/DIRECTORY/clotho_v2.1
+save_dir: /YOUR/SAVE/DIRECTORY/clotho-moment
+
+tmp_dir: ./.tmp
+
+# dataset config
+sr: 32000
+split_ratio: [7, 1, 2]
+clip_duration: 60
+clip_interval: 1
+clip_db: 5
+min_fg_db: 5
+max_fg_db: -5
+min_bg_db: -25
+max_bg_db: -15
+avg_interval: 30
