@@ -40,7 +40,8 @@ In addition, it supports the following functionalities (coming soon):
     ```
 
 ## Generation of Clotho-Moments
-Under construction
+In `./clotho-moment_generetor`, you can find the procedure to generate Clotho-Moments from Clotho and Walking Tours.
+Please read the README.md in the directory for more details.
 
 ## Extraction of CLAP Features
 Under construction
