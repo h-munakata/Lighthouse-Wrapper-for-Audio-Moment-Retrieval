@@ -48,8 +48,8 @@ In `./feature_extractor`, you can find the procedure to extract CLAP features fo
 Please read the README.md in the directory for more details.
 
 ## Evaluation of Zero-shot Sound Event Detection
-Under construction
-
+In `./zero-shot_sed_eval`, you can find the procedure to evaluate the zero-shot SED system.
+Please read the README.md in the directory for more details.
 
 
 
