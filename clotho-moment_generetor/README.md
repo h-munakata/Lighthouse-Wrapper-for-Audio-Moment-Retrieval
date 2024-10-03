@@ -9,9 +9,10 @@ This repository provides the procedure to generate Clotho-Moments from Clotho an
     ```bash
     pip install -r ../requirements.txt
     ```
-1. Download Clotho and Walking Tour datasets.
-2. Set the path to the downloaded datasets and the save directory in "config.yaml".
-3. Run the following command to generate Clotho-Moments:
+2. Install ffmpeg.
+3. Download Clotho and Walking Tour datasets.
+4. Set the path to the downloaded datasets and the save directory in "config.yaml".
+5. Run the following command to generate Clotho-Moments:
     ```bash
     python 1_collect_data.py
     python 2_covert_bg.py
