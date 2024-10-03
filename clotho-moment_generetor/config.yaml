@@ -1,6 +1,6 @@
 root_wwt: /YOUR/WALKING_TOUR/DIRECTORY/WalkingTourVideos
 root_clotho: /YOUR/CLOTHO/DIRECTORY/clotho_v2.1
-save_dir: /YOUR/SAVE/DIRECTORY/clotho-moment
+save_dir: ./clotho-moment
 
 tmp_dir: ./.tmp
 
