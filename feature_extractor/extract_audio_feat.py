@@ -16,7 +16,7 @@ def dump_audio(data_dir, save_dir, extractor, model_name):
         return
 
     # Setup the directory to save the audio features"
-    dir_save_feats = save_dir / f"{model_name}_text"
+    dir_save_feats = save_dir / model_name
     dir_save_feats.mkdir(exist_ok=True, parents=True)
 
     # Loop through the audio files and extract the audio featseddings
