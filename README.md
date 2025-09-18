@@ -1,11 +1,17 @@
 # Lighthouse-Wrapper-for-Audio-Moment-Retrieval
 
 ## What is this?
-This repository provides the procedure to conduct experiments with [Lighthouse](https://github.com/line/lighthouse) for the paper ["Language-based Audio Moment Retrieval" (under review)](https://arxiv.org/abs/2409.15672).
-In addition, it supports the following functionalities (coming soon):
+This repository provides the procedure to conduct experiments with [Lighthouse](https://github.com/line/lighthouse) for the paper ["Language-based Audio Moment Retrieval" (Munakata et.al., ICASSP 2025)](https://arxiv.org/abs/2409.15672).
+In addition, it supports the following functionalities:
 - Generation of Clotho-Moments from Clotho and UnAv-100
 - Extraction of CLAP Features
 - Evaluation of Zero-shot Sound Event Detection
+The raw dataset is provided in the following links:
+- HuggingFace
+  - [Clotho-Moment](https://huggingface.co/datasets/lighthouse-emnlp2024/Clotho-Moment)
+- Zenodo
+  - [Clotho-Moment/UnAV100-subset/TUT Sound Events 2017](https://zenodo.org/records/13836117)
+
 
 ## How to train/evaluate AMR models with Lighthouse?
 1. Install [Lighthouse](https://github.com/line/lighthouse)
