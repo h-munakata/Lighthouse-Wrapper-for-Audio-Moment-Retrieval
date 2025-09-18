@@ -6,11 +6,15 @@ In addition, it supports the following functionalities:
 - Generation of Clotho-Moments from Clotho and UnAv-100
 - Extraction of CLAP Features
 - Evaluation of Zero-shot Sound Event Detection
-The raw dataset is provided in the following links:
+The raw audio dataset is provided in the following links:
 - HuggingFace
   - [Clotho-Moment](https://huggingface.co/datasets/lighthouse-emnlp2024/Clotho-Moment)
 - Zenodo
   - [Clotho-Moment/UnAV100-subset/TUT Sound Events 2017](https://zenodo.org/records/13836117)
+The captions are available in Lighthouse:
+  - [Clotho-Moment](https://github.com/line/lighthouse/tree/main/data/clotho_moment)
+  - [UnAV100-subset](https://github.com/line/lighthouse/tree/main/data/unav100-subset)
+  - [TUT Sound Events 2017](https://github.com/line/lighthouse/tree/main/data/tut2017)
 
 
 ## How to train/evaluate AMR models with Lighthouse?
